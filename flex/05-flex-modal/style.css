@@ -6,6 +6,7 @@ html, body {
 
 body {
   font-family: Roboto, sans-serif;
+  text-align: left;
   margin: 0;
   background: #aaa;
   color: #333;
@@ -20,7 +21,30 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
 }
+
+.right {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top .header{
+  font-weight: bold;
+  font-size: 18px;
+}
+
 
 .icon {
   color: royalblue;
